@@ -2,7 +2,7 @@
 
 Ceci est mon CV personnel développé en HTML et CSS.
 
-🔗 [Voir en ligne](https://lorrisc.github.io/cv/)  
+🔗 [Voir en ligne](https://lorrisc.github.io/curriculum-vitae/)  
 📄 [Télécharger en PDF](./CV_Lorris_CRAPPIER_public.pdf)
 
 ## Aperçu
