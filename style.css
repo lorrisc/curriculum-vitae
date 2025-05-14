@@ -72,7 +72,7 @@ body {
     flex-direction: column;
     gap: var(--marge-xs);
 }
-#moi p {
+#moi :is(p, a) {
     color: var(--color-black-txt);
 }
 h1 {
@@ -94,9 +94,10 @@ h2 {
     flex-wrap: wrap;
 }
 
-p {
+p, a {
     font-size: var(--font-size-xs);
     color: var(--color-grey-txt);
+    text-decoration: none;
 }
 
 h3 {
