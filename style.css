@@ -218,3 +218,12 @@ h3 {
     gap: var(--marge-xxs);
 
 }
+
+
+@media screen and (max-width: 850px) {
+    .wrapper {
+        transform-origin: top left;
+        width: fit-content;
+    }
+
+}
