@@ -10,6 +10,12 @@
     --color-grey: rgb(66, 66, 66);
     --font-size-large: 12px;
     --font-size-normal: 11px;
+    --line-height-cv: 1.30;
+    --spacing-between-parts: 20px;
+    --spacing-between-parts-contents: 10px;
+    --spacing-in-content-parts: 3px;
+    --padding-rl-content-parts: 15px;
+    --space-under-part-titles: 6px;
 }
 
 html {
@@ -36,12 +42,12 @@ body {
     /* texts */
     font-family: "Merriweather", serif;
     font-size: var(--font-size-normal);
-    line-height: 1.30;
+    line-height: var(--line-height-cv);
 
     /* disposition */
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: var(--spacing-between-parts);
     box-sizing: border-box;
 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -115,15 +121,15 @@ h2::after {
 .part-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--spacing-between-parts-contents);
 }
 
 /* le contenu d'une partie */
 .part-container-content {
     display: flex;
     flex-direction: column;
-    gap: 3px;
-    padding: 0 15px;
+    gap: var(--spacing-in-content-parts);
+    padding: 0 var(--padding-rl-content-parts);
 }
 
 
@@ -138,7 +144,7 @@ h1, h2 {
 
 h2 {
     position: relative;
-    padding-bottom: 6px; /* espace sous le texte pour la ligne */
+    padding-bottom: var(--space-under-part-titles); /* espace sous le texte pour la ligne */
     color: var(--color-main);
 }
 
