@@ -21,6 +21,10 @@
     --font-size-normal: 11px;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
     font-family: "Merriweather", serif;
     background: #f5f5f5;
